@@ -7,7 +7,7 @@
     "require": {
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.5",
-        "laravel/framework": "^9.34",
+        "laravel/framework": "^9.40",
         "laravel/sanctum": "^2.15.1",
         "laravel/tinker": "^2.7",
         "podcastcrawler/podcastcrawler": "^1.1"
@@ -17,8 +17,8 @@
         "laravel/sail": "^1.16.2",
         "mockery/mockery": "^1.5.0",
         "nunomaduro/collision": "^6.3",
-        "phpunit/phpunit": "^9.5.25",
-        "spatie/laravel-ignition": "^1.5"
+        "phpunit/phpunit": "^9.5.26",
+        "spatie/laravel-ignition": "^1.6"
     },
     "autoload": {
         "psr-4": {
