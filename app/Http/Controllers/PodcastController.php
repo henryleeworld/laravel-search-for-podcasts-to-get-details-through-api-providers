@@ -15,13 +15,13 @@ class PodcastController extends Controller
     public function search()
     {
         $PodcastCrawler = new PodcastCrawler(new Itunes);
-        $resultAry = $PodcastCrawler->get('百靈果news');
+        $resultAry = $PodcastCrawler->get(__('[Sleepless nights with half a bottle of vinegar] Movies, animations, games and those years'));
         foreach ($resultAry['podcasts'] as $podcast) {
-            echo 'iTunes 編號：' . $podcast['itunes_id'] . PHP_EOL;
-            echo '標題：' . $podcast['title'] . PHP_EOL;
-            echo '作者：' . $podcast['author'] . PHP_EOL;
-            echo '圖片：' . $podcast['image'] . PHP_EOL;
-            echo '集數：' . $podcast['episodes'] . PHP_EOL;
+            echo __('iTunes ID: ') . $podcast['itunes_id'] . PHP_EOL;
+            echo __('Title: ') . $podcast['title'] . PHP_EOL;
+            echo __('Author: ') . $podcast['author'] . PHP_EOL;
+            echo __('Image: ') . $podcast['image'] . PHP_EOL;
+            echo __('Episodes: ') . $podcast['episodes'] . PHP_EOL;
         }
     }
 }
