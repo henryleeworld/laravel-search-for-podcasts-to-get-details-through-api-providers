@@ -1,4 +1,4 @@
-# Laravel 11 透過 API 服務提供者搜尋 Podcast 內容
+# Laravel 12 透過 API 服務提供者搜尋 Podcast 內容
 
 引入 podcastcrawler 的 podcastcrawler 套件來擴增搜尋 Podcast 內容，Podcast 是「iPod」和「broadcast」的混合詞，是一種透過網路接收音訊的媒體，發布者將音訊、影片、電台等等以 RSS 訊息來源輸出形成列表，上傳網路發布，然後聽眾經由電子裝置收聽和下載串流的電子檔，從而接收其內容，Podcast 屬於「隨選隨聽」機制，結合 RSS feed 訂閱功能，有新集數上架時會出現在訂閱者的清單列表裡，用戶可以在列表中選取想聽的集數，不受播出時間影響，而且可下載離線收聽。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/podcast/search` 來進行搜尋 Podcast 內容。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/eFiNlsH.png)
-> 進軍 Podcast 約兩年的百靈果，不僅單月收聽次數已破百萬，在 Apple Podcast 排行榜上也始終前幾名的常勝軍。死忠粉絲稱他們為「邪教教主」，其中一個原因，大概就是凱莉那充滿渲染力的笑聲
+![](https://i.imgur.com/pe3xM4z.png)
+> 隨著數位媒體的迅速發展，Podcast 媒體形式已成為大眾獲取資訊和娛樂的重要來源

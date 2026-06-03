@@ -9,8 +9,6 @@ class PodcastController extends Controller
 {
     /**
      * Search the profile.
-     *
-     * @return void
      */
     public function search()
     {
