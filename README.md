@@ -1,4 +1,4 @@
-# Laravel 12 透過 API 服務提供者搜尋 Podcast 內容
+# Laravel 13 透過 API 服務提供者搜尋 Podcast 內容
 
 引入 podcastcrawler 的 podcastcrawler 套件來擴增搜尋 Podcast 內容，Podcast 是「iPod」和「broadcast」的混合詞，是一種透過網路接收音訊的媒體，發布者將音訊、影片、電台等等以 RSS 訊息來源輸出形成列表，上傳網路發布，然後聽眾經由電子裝置收聽和下載串流的電子檔，從而接收其內容，Podcast 屬於「隨選隨聽」機制，結合 RSS feed 訂閱功能，有新集數上架時會出現在訂閱者的清單列表裡，用戶可以在列表中選取想聽的集數，不受播出時間影響，而且可下載離線收聽。
 
@@ -26,5 +26,5 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/pe3xM4z.png)
+![](https://i.imgur.com/Tj4lmGl.png)
 > 隨著數位媒體的迅速發展，Podcast 媒體形式已成為大眾獲取資訊和娛樂的重要來源
